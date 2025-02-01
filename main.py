@@ -37,6 +37,9 @@ def main():
         print("\nTesting: Reset password for invalid email")
         reset_password(driver, "invalidemail@example.com")
 
+        print("\nThis is just a test")
+        login(driver,"test","test")
+
         # Optional: Wait for the response or confirmation message
         time.sleep(5)  # Adjust this delay if needed (consider using WebDriverWait for better handling)
 
